@@ -8,28 +8,68 @@
 
     <style>
         table{
-            margin-top: 20px;
+            margin-top: 0px;
             border-collapse: collapse;
             width: 100%;
             background-color: #837f7f;
-         
-            text-align:center;
+            text-align:left;
+            margin-right: 40px;
+            margin-top:0px;
             
-
+           
+        }
+        th{
+            /* font-size: 25px; */
+            /* margin-top: 90px; */
+            padding: 50px;
         }
         td,th{
             border: 2px solid black;
-            /* text-align: center; */
+            /* padding: 0px; */
+        
+            
+          
         }
         tr:nth-child(even){
             /* color: blue;*/
-            background-color: rgb(151, 151, 213);
+            background-color: rgb(151, 213, 159);
+           
+        
         }
+        nav{
+            height: 5rem;
+            background-color: yellow;
+            border: 2px solid black;
+            margin-bottom: 30px;
+            padding-left: 10rem;
+            place-content:inherit;
+            
+           
+        } 
+        header{
+            text-align: center;
+            border: 2px solid red;
+            margin-bottom: 10px;
+            padding-bottom: 30px;
+        }
+        
+        
     </style>
 </head>
 <body>
-  
-  <table>
+    <header> <h4>nav bar</h4> 
+    
+  <nav>
+    <a href="">Home</a> &nbsp;
+
+    <a href="">about</a>
+  </nav>
+</header>
+
+
+  <table> 
+    <caption>Anurag table</caption>
+    
     <tr>
         <th>Name</th>
         <th>Education</th>
@@ -50,6 +90,12 @@
         <td>Hemant</td>
         <td>Diploma</td>
         <td>Golang</td>
+        
+    </tr>
+    <tr>
+        <td>Amit</td>
+        <td>BCA</td>
+        <td>Docker</td>
         
     </tr>
     
