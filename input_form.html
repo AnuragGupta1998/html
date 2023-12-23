@@ -10,23 +10,45 @@
 <body>
    
     <h1>Form in HTML</h1>
+     
     <form action="" method="post" autocomplete="on" target="_parent" accept-charset="UTF-8" enctype="application/x-www-form-urlencoded">
 
         <label for="fname"><strong>FirstName</strong></label>
-        <input type="text" name="" id="fname" placeholder="first_name">
+        <input type="text" name="" id="fname" placeholder="first_name" value="Anurag" >
+        
 
         <label for="lname"><strong>LasttName</strong></label>
         <input type="text" name="" id="lname" placeholder="last_name">
+
+        <label for="password">Password</label>
+        <input type="password" name="" id="">
+
+        <!-- to reset the form -->
+        <input type="reset" value="reset">
 
         <!-- <input type="submit" value="submit"> -->
         <button type="submit">submit</button>
 
         <label for="">Gender</label>
-        <select name="gender" id="" au>
+        <select name="gender" id="" autocomplete="" >
             <option value="male">Male</option>
             <option value="female">Female</option>
+
         </select>
+        <hr>
+
+        <label for="name">Names</label>
+        <select name="Names" id="name">
+            <option value="An">Anurag</option>
+            <option value="Aa">Ashutosh</option>
+            <option value="He">Hemant</option>
+            <option value="As">Ashish</option>
+        </select>
+
+     
     </form>
+
+    
 
 
 
