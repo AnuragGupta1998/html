@@ -1,0 +1,28 @@
+
+*{
+    margin: 0px;
+    background-color: #f5e661;
+}
+body{
+    background-color: #e85959;
+    color: aqua;
+    border: solid 2px black;
+    padding: 10px;
+    /* margin:0px; */
+   
+}
+h2{
+    color: blue;
+    background-color: #e8ef13;
+    text-align: center;
+    margin: 20px;
+
+}
+h4{
+    color: blueviolet;
+    background-color: #15ed68;
+    text-align: center;
+    margin: 20px;
+    font-size: 24px;
+   
+}
