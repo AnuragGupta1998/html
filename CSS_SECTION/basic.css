@@ -40,6 +40,7 @@ div{
     object-fit: cover;
 }
 /* Grouping the element selector inside h1 the p get the properties */
-h1 p{
-    color: aqua;
+h2 p{
+    color: rgb(11, 19, 19);
+    text-decoration:underline;
 }
