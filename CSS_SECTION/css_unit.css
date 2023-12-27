@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    
+}
+html{
+    font-size: 20px;
+}
+#outer{
+    background-color: #9ade12;
+    /* px unit to define height and width */
+    /* height: 300px;
+    width: 300px; */
+
+    /* view height and width(vh and vw */
+    height: 100vh;
+    width: 100vw;
+
+    /* 1rem is equal to font-size of root element(html) */
+    height: 5rem;
+    width:5rem
+
+
+}
+#inner{
+    background-color: #e90a0a;
+    height: 50%;
+    width: 50%;
+}

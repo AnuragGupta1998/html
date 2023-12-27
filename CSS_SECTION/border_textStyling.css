@@ -1,0 +1,45 @@
+#div1{
+    height: 200px;
+    width: 200px;
+    background-color: #fff310;
+    /* adding border......... */
+    /* border-width: 2px; */
+    border-style: solid;
+    border-color: blue;
+    
+
+    /* shorthnad to adding border ..........*/
+    /* border: 2px dotted black; */
+
+    /* custimize the each border size ............ */
+    /* top/bottom and right/left */
+    /* border-width: 5px 10px;  */
+   
+    /* top right/left bottom */
+    /* border-width: 2px 4px 8px; */
+
+    /* top right bottom left */
+    /* border-width: 2px 4px 6px 8px; */
+
+    /* left boder */
+    border-width: 0px 0px 0px 10px;
+
+    border-left: 2px dotted black;
+}
+    
+
+    /* font styling */
+   p{
+    color: red;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: justify;
+    line-height: 20px;
+    text-transform: uppercase;
+   }
+
+
+
+    
