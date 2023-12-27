@@ -1,0 +1,29 @@
+#id1{
+    height: 100px;
+    width: 100px;
+    /* border: 2px solid black; */
+    background-image: url("../12-factor-app-process-1024x791.png.webp");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size:contain;
+}
+
+#id2{
+     height: 200px;
+     width: 200px;
+     background-color:red;
+     /* margin: 20px; */
+     /* background-image: url(../android-chrome-192x192.png); */
+     background-size:cover;    
+     /* box-sizing: border-box; */
+     margin: 20px;
+}
+
+ #id2 img{
+    width: 198px;
+    height: 198px;
+    padding: 1px;
+    
+
+
+ }
