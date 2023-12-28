@@ -1,0 +1,38 @@
+#outer{
+    height: 200px;
+    width: 200px;
+    background-color:yellow;
+    border: 2px solid black;
+    /* margin: auto; */
+    /* padding: 50px; */
+    margin-bottom: 20px;
+    color: blue;
+}
+
+#inner{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color:red;
+    color: rgb(38, 255, 0);
+    padding: 10px;
+    margin: 30px 10px 5px;
+}
+
+#id2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color:rgb(53, 205, 55);
+    padding: 50px;
+}
+
+
+p{
+    background-color: blue;
+    color: #fff;
+}
+div p:first-child{
+    color: red;
+    background-color: yellow;
+}
