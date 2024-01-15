@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+       
+        .parent{
+            height: 75vh;
+            width: auto;
+            border:2px solid black;
+            background-color: #c1bebe;
+            margin: 10px;
+            display: flex;
+
+            /* Flex Direction ......................*/
+
+             /* flex-direction: column; */
+           /* flex-direction: column-reverse;
+            flex-direction: row-reverse; */
+            /* flex-direction: row; */
+
+            /* flex wrap ...........................*/
+            flex-wrap: wrap;
+            /* flex-wrap: wrap-reverse; */
+            /* flex-wrap: nowrap; */
+
+            /* alignment of elemnt .......................*/
+
+            /* for horizontal alignment .......*/
+            /* justify-content: center;  */
+
+            /* for vertically alignment........ */
+            /* for one singe line  element.....*/
+            /* align-items: center; */
+
+            /* for multiple line element......*/
+            /* align-content: center; */
+
+            /* gap: 20px; */
+            /* flex-flow: column wrap; */
+           
+
+
+         
+        }
+        #c1{
+            height:150px;
+            width: 150px;
+            /* border: 1px solid black; */
+            background-color: #f70000;
+           
+
+            /* order of the element */
+            /* order: 1; */
+        }
+        #c2{
+            height:150px;
+            width: 150px;
+            /* border: 1px solid black; */
+            background-color: #0cf036;
+
+            /* order of the element */
+            /* order: 2; */
+        }
+        #c3{
+            height:150px;
+            width: 150px;
+            /* border: 1px solid black; */
+            background-color: #454ef8;
+
+            /* order of the element */
+            /* order: 3; */
+        }
+        #c4{
+            height:150px;
+            width: 150px;
+            /* border: 1px solid black; */
+            background-color: #fffb08;
+
+            /* order of the element */
+            /* order: 4; */
+        }
+
+        .outer{
+            height: 400px;
+            width: 400px;
+            background-color: #5cebf6;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            /* align-items: center; */
+            /* row-gap: 10px; */
+            /* column-gap: 90px; */
+            align-items: stretch;
+        }
+        #inner1{
+            height: 100px;
+            /* height: auto; */
+            /* width: 100px; */
+            width: auto;
+            background-color: #f4ff20;
+
+              /* flex-grow/shrink */
+            /* flex-grow: 1; */
+            /* flex-shrink: 1; */
+        }
+        #inner2{
+             height: 100px;
+            /* height: auto;  */
+            /* width: 100px; */
+            width: auto;
+            background-color: #15ff38;
+
+            /* flex-grow/shrink */
+            /* flex-grow: 1; */
+            /* flex-shrink: 4; */
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+
+        <div id="c1">div1</div>
+        <div id="c2">div2</div>
+        <div id="c3">div3</div>
+        <div id="c4">div4</div>
+        <div id="c1">div1</div>
+        <div id="c2">div2</div>
+        <div id="c3">div3</div>
+        <div id="c4">div4</div>
+        <div id="c1">div1</div>
+        <div id="c2">div2</div>
+        <div id="c3">div3</div>
+        <div id="c4">div4</div>
+        <div id="c1">div1</div>
+        <div id="c2">div2</div>
+        <div id="c3">div3</div>
+        <div id="c4">div4</div>
+    </div>
+
+    <div class="outer">
+        <div id="inner1"></div>
+        <div id="inner2"></div>
+    </div>
+    
+</body>
+</html>
