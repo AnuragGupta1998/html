@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform and Transition</title>
+    <style>
+        #trnsform{
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            border: 1px solid black;
+            position:absolute;
+            /* left and top margin */
+            left: 80px; 
+            top: 50px;
+
+          /* ratate........ */
+          /* transform: rotate(60deg); */
+          /* transform: rotateX(190deg); */
+          /* transform: rotateY(70deg); */
+
+          /* scale the element .....*/
+          /* transform:scale(2); */
+          /* transform: scale(1.5,1); */
+
+          /* translate */
+          transform: translate(90px);
+          transform: translate(10px,20px);
+
+          /* Transition................ */
+          transition:  2s steps(10,end);
+
+
+        }
+
+        /* Transition hover */
+        #trnsform:hover{
+            height: 200px;
+            width: 400px;
+            border: 10px solid red;
+            /* background-color: #07f180; */
+            /* border-radius: 50%; */
+            /* text-align: center; */
+            /* padding-top: 100px; */
+            /* background:radial-gradient(red,blue) ; */
+            /* background:repeating-radial-gradient(red,blue 10px) ; */
+            /* background:repeating-linear-gradient(red,yellow 10px,green 20px) ; */
+            transform: scale(1.2) translate(300px);
+        }
+
+    </style>
+</head>
+<body>
+    <div id="trnsform"> Transform  Anurag</div>
+    <div id="trnsition"></div>
+    
+</body>
+</html>
