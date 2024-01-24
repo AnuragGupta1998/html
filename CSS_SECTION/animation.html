@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            border: 1px solid black;
+            transition: 1s ease-in-out;
+             animation:changeShap 1s ease-in-out 2 alternate-reverse;
+        }
+
+        /* @keyframes changeShap{
+            from{
+                border-radius: 0%;
+                
+                background-color: #3ff30e;
+
+            }
+            to{
+                border-radius: 50%;
+                border: 10px solid red;
+                background-color: #f72323;
+            }
+        } */
+        @keyframes changeShap{
+            from{
+                transform: scale(1.2);
+            }
+            to{
+                
+                
+                transform:rotate(120deg);
+                border-radius:50%;
+                
+                
+            }
+        }
+         div:hover{
+            height: 100px;
+            width: 10px;
+            animation:changeShap 2s ease-in-out 3 alternate;
+            animation: name duration timing-function delay iteration-count direction fill-mode;      
+         } 
+
+        #id2{
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            position: absolute;
+            left: 50%;
+            top: 30%;
+            transition: 1s ease-in-out 1s  ;
+        
+        }
+        #id2:hover{
+            transform: scaleY(1.5) translateY(100px);
+        }
+
+    </style>
+</head>
+<body>
+    <div>div1</div>
+    <div id="id2">div2</div>
+    
+</body>
+</html>
